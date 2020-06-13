@@ -3,25 +3,17 @@ import styled from "styled-components";
 import logo from "../assets/logo.svg"
 
 const HeaderWrapper = styled.nav`
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
-    color: ${({theme}) => theme.colors.white};
-    background-color: ${({theme}) => theme.colors.dark};
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   display: flex;
+   justify-content: flex-end;
+   height: 70px;
+   width: 100vw;
+   color: ${({theme}) => theme.colors.white};
+   background-color: ${({theme}) => theme.colors.dark};
 `;
 
-const Logo = styled.div`
-    margin: 0 40px;
-    display: block;
-    justify-content: flex-start;
-    width: 150px; 
-    
-    height: 67px;
-    background-image: url(${logo});
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    border: none;
-`;
 
 const List = styled.ul`
     display: flex;
@@ -40,15 +32,17 @@ const Item = styled.li`
     color: white;
 `;
 
-export const Header = () => (
+export const Footer = () => (
     <HeaderWrapper>
-        <Logo/>
         <List>
             <Item>
-                Login
+                About
             </Item>
             <Item>
-                Sign up for free
+                F.A.Q.
+            </Item>
+            <Item>
+                Contact
             </Item>
         </List>
     </HeaderWrapper>
