@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 const StyledButton = styled.button`
-    width: 316px;
+    //width: 316px;
     height: 50px;
     outline: none;
     border: none;
@@ -17,9 +17,9 @@ const StyledButton = styled.button`
 `
 
 
-const Button = () => (
+const Button = ({children}) => (
     <StyledButton>
-        Create your CV
+        {children}
     </StyledButton>
 );
 

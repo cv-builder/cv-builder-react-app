@@ -12,8 +12,7 @@ function Root() {
         <ThemeProvider theme={lightTheme}>
             <Header/>
             <MainPage/>
-
-            <Footer/>.
+            <Footer/>
         </ThemeProvider>
     );
 }

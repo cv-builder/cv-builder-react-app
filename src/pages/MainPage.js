@@ -53,7 +53,7 @@ const MainPage = () => {
                         <li>• get a new job</li>
                     </ul>
                 </Paragraph>
-                <Button/>
+                <Button>Create your own CV! </Button>
             </PageDescription>
         </PageWrapper>
     )
