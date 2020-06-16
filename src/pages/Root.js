@@ -6,12 +6,13 @@ import {Footer} from "../components/Footer";
 import {lightTheme} from "../theme/theme";
 import MainPage from "./MainPage";
 import {ThemeProvider} from "styled-components";
+import FormPage from "./FormPage";
 
 function Root() {
     return (
         <ThemeProvider theme={lightTheme}>
             <Header/>
-            <MainPage/>
+            <FormPage/>
             <Footer/>
         </ThemeProvider>
     );

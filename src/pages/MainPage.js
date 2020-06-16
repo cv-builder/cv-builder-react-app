@@ -47,10 +47,10 @@ const MainPage = () => {
                 </Title>
                 <Paragraph>
                     <ul>
-                        <li>• choose your template</li>
-                        <li>• build your cv step by step</li>
-                        <li>• print</li>
-                        <li>• get a new job</li>
+                        <li>choose your template</li>
+                        <li>build your cv step by step</li>
+                        <li>print</li>
+                        <li>get a new job</li>
                     </ul>
                 </Paragraph>
                 <Button>Create your own CV! </Button>
