@@ -4,6 +4,7 @@ import './index.css';
 import Root from './pages/Root';
 import * as serviceWorker from './serviceWorker';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <Root />
