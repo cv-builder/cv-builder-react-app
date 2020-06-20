@@ -34,7 +34,7 @@ const StyledLabel = styled.label`
       font-weight: bold;
       font-size: 18px;
       height: 40px;
-      width: 325px;
+      //width: 325px;
       margin: 1px;
       display: flex;
       text-decoration: none;
@@ -46,7 +46,7 @@ const StyledInput = styled.input`
     appearance: none;
     outline: 0;
     border: 1px solid white;
-    width: 325px;
+    //width: 325px;
     border-radius: 35px;
     margin: 1px;
     text-align: center;
@@ -101,12 +101,21 @@ const FormWrapper = () => (
                     type="text"
                 />
             </FormItem>
+            <FormItem>
+                <StyledLabel>
+                    Last name
+                </StyledLabel>
+                <StyledInput
+                    name="name"
+                    type="text"
+                />
+            </FormItem>
         </Wrapper>
 
         <Wrapper>
             <FormItem>
                 <StyledLabel>
-                    First name
+                    E-mail
                 </StyledLabel>
                 <StyledInput
                     name="name"
@@ -115,7 +124,7 @@ const FormWrapper = () => (
             </FormItem>
             <FormItem>
                 <StyledLabel>
-                    Last name
+                    Phone number
                 </StyledLabel>
                 <StyledInput
                     name="name"
