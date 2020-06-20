@@ -42,11 +42,11 @@ const StyledLabel = styled.label`
 `;
 
 const StyledInput = styled.input`
-    display: block;
+    display: inline-block;
     appearance: none;
     outline: 0;
     border: 1px solid white;
-    //width: 325px;
+    overflow:hidden;
     border-radius: 35px;
     margin: 1px;
     text-align: center;
@@ -85,7 +85,7 @@ const FormWrapper = () => (
         <Wrapper>
             <FormItem>
                 <StyledLabel>
-                    First name
+                    Street & number
                 </StyledLabel>
                 <StyledInput
                     name="name"
@@ -94,7 +94,7 @@ const FormWrapper = () => (
             </FormItem>
             <FormItem>
                 <StyledLabel>
-                    Last name
+                    City
                 </StyledLabel>
                 <StyledInput
                     name="name"
@@ -103,7 +103,7 @@ const FormWrapper = () => (
             </FormItem>
             <FormItem>
                 <StyledLabel>
-                    Last name
+                    Postcode
                 </StyledLabel>
                 <StyledInput
                     name="name"

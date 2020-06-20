@@ -10,7 +10,6 @@ const Item = styled.div`
   background: ${({theme}) => theme.colors.accent};
   color: ${({theme}) => theme.colors.white};
   margin: 10px;
-  justify-content: flex-start;
   font-size: 26px;
   font-weight: bold;
   text-align: center;
