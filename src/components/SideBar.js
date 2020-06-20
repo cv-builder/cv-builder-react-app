@@ -18,19 +18,27 @@ const SideBar = () => (
     <SideBarWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item/>
+            <Item>CONTACT</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item/>
+            <Item>EXPERIENCE</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item/>
+            <Item>EDUCATION</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item/>
+            <Item>SKILLS</Item>
+        </ItemWrapper>
+        <ItemWrapper>
+            <Checkbox/>
+            <Item>ABOUT</Item>
+        </ItemWrapper>
+        <ItemWrapper>
+            <Checkbox/>
+            <Item>HOBBIES</Item>
         </ItemWrapper>
 
 

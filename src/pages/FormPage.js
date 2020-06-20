@@ -7,6 +7,7 @@ import FormWrapper from "../components/FormWrapper";
 const FormPageWrapper = styled.div`
   display: flex;
   width: 80vw;
+  height: 80vh;
   margin: 0 auto;
   background-color: ${({theme}) => theme.colors.white};
 `;

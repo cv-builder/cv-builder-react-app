@@ -2,6 +2,7 @@ import React from 'react';
 import resume from '../assets/resume.svg';
 import styled from "styled-components";
 import Button from "../components/Button";
+import {Link} from "react-router-dom";
 
 const PageWrapper = styled.div`
   display: flex;
@@ -53,7 +54,7 @@ const MainPage = () => {
                         <li>get a new job</li>
                     </ul>
                 </Paragraph>
-                <Button>Create your own CV! </Button>
+                <Button><Link to="/create">Create your own CV! </Link></Button>
             </PageDescription>
         </PageWrapper>
     )
