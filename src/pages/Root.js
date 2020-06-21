@@ -17,6 +17,7 @@ function Root() {
                 <Header/>
                 <Route exact path="/" component={MainPage}/>
                 <Route path="/create" component={FormPage}/>
+                <Route path="/create" component={FormPage}/>
                 <Footer/>
             </ThemeProvider>
         </Router>
