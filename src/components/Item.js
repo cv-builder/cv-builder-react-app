@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import Checkbox from "./Checkbox";
+import {Link} from "react-router-dom";
 
-const Item = styled.div`
+const Item = styled(Link)`
   width: 270px;
   height: 50px;
   border-radius: 35px;
@@ -15,5 +16,6 @@ const Item = styled.div`
   text-align: center;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 `
 export default Item;

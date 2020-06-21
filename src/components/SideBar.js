@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Item from "./Item";
 import Checkbox from "./Checkbox";
+import {Link} from "react-router-dom";
 
 const SideBarWrapper = styled.div`
   display: flex;
@@ -18,27 +19,27 @@ const SideBar = () => (
     <SideBarWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item>CONTACT</Item>
+            <Item to="/contact">CONTACT</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item>EXPERIENCE</Item>
+            <Item to="/experience">EXPERIENCE</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item>EDUCATION</Item>
+            <Item to="/education">EDUCATION</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item>SKILLS</Item>
+            <Item to="/skills">SKILLS</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item>ABOUT</Item>
+            <Item to="/about">ABOUT</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item>HOBBIES</Item>
+            <Item to="/hobbies">HOBBIES</Item>
         </ItemWrapper>
 
 

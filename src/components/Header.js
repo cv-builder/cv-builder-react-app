@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import logo from "../assets/logo.svg"
+import {Link} from "react-router-dom";
 
 const HeaderWrapper = styled.nav`
     display: flex;
@@ -40,12 +41,19 @@ const Item = styled.li`
     color: white;
 `;
 
+const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: ${({theme}) => theme.colors.white};
+`
+
 export const Header = () => (
     <HeaderWrapper>
         <Logo/>
         <List>
             <Item>
-                Login
+                <StyledLink to="/login">
+                    Login
+                </StyledLink>
             </Item>
             <Item>
                 Sign up for free
