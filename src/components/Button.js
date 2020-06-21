@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 const StyledButton = styled.button`
-    //width: 316px;
+    min-width: 200px;
     height: 50px;
     outline: none;
     border: none;

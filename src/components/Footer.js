@@ -3,6 +3,7 @@ import styled from "styled-components";
 import logo from "../assets/logo.svg"
 
 const HeaderWrapper = styled.nav`
+   margin-top: 10px;
    position: fixed;
    left: 0;
    bottom: 0;
