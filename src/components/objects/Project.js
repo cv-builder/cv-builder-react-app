@@ -5,7 +5,7 @@ class Project {
         this.name = '';
         this.startDate = '';
         this.finishDate = '';
-        this.description = 0;
+        this.description = '';
     }
 }
 

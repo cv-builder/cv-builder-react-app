@@ -1,9 +1,14 @@
-class Interest {
+class Experience {
 
     constructor() {
         this.id = 0;
-        this.name = '';
+        this.company = '';
+        this.city = '';
+        this.position = '';
+        this.startDate = '';
+        this.finishDate = '';
+        this.description = '';
     }
 }
 
-export default Interest;
+export default Experience;
