@@ -2,9 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const PageWrapper = styled.div`
-      margin: 30px;
+      margin: 5px;
       border-radius: 20px;
-      width: 60vw;
       display: flex;
       flex-direction: column;
 `;

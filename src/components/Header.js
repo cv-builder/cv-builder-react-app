@@ -11,7 +11,7 @@ const HeaderWrapper = styled.nav`
     background-color: ${({theme}) => theme.colors.dark};
 `;
 
-const Logo = styled.div`
+const Logo = styled(Link)`
     margin: 0 40px;
     display: block;
     justify-content: flex-start;
@@ -48,7 +48,7 @@ const StyledLink = styled(Link)`
 
 export const Header = () => (
     <HeaderWrapper>
-        <Logo/>
+        <Logo to="/"/>
         <List>
             <Item>
                 <StyledLink to="/login">
