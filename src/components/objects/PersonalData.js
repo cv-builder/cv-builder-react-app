@@ -1,6 +1,7 @@
 class PersonalData {
 
     constructor() {
+        this.id = 0;
         this.firstName = '';
         this.secondName = '';
         this.lastName = '';
