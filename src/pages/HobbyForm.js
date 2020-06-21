@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import SideBar from "../components/SideBar";
 import FormWrapper from "../components/FormWrapper";
+import SkillsFormWrapper from "../components/SkillsFormWrapper";
 
 
 const FormPageWrapper = styled.div`
@@ -13,11 +14,11 @@ const FormPageWrapper = styled.div`
 `;
 
 
-const ExperienceForm = () => (
+const HobbyForm = () => (
     <FormPageWrapper>
         <SideBar/>
-        <FormWrapper/>
+        <SkillsFormWrapper children="Hobby"/>
     </FormPageWrapper>
 )
 
-export default ExperienceForm;
+export default HobbyForm;

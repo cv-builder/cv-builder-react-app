@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import SideBar from "../components/SideBar";
 import FormWrapper from "../components/FormWrapper";
+import EducationFormWrapper from "../components/EducationFormWrapper";
 
 
 const FormPageWrapper = styled.div`
@@ -13,11 +14,11 @@ const FormPageWrapper = styled.div`
 `;
 
 
-const ExperienceForm = () => (
+const EducationForm = () => (
     <FormPageWrapper>
         <SideBar/>
-        <FormWrapper/>
+        <EducationFormWrapper/>
     </FormPageWrapper>
 )
 
-export default ExperienceForm;
+export default EducationForm;

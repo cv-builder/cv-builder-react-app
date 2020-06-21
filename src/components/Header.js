@@ -41,14 +41,19 @@ const Item = styled.li`
     color: white;
 `;
 
+const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: ${({theme}) => theme.colors.white};
+`
+
 export const Header = () => (
     <HeaderWrapper>
         <Logo/>
         <List>
             <Item>
-                <Link to="/login">
+                <StyledLink to="/login">
                     Login
-                </Link>
+                </StyledLink>
             </Item>
             <Item>
                 Sign up for free
