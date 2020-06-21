@@ -1,4 +1,4 @@
-class User {
+class UserCv {
 
     constructor() {
         this.id = 0;
@@ -7,4 +7,4 @@ class User {
     }
 }
 
-export default User;
+export default UserCv;
