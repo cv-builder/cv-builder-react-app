@@ -6,6 +6,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 const TextTop = styled.h1`
     color: red;
 `;
+
 const TextBottom = styled.p`
     font-size: 13px;
 `;

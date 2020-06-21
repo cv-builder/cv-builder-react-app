@@ -13,11 +13,11 @@ const FormPageWrapper = styled.div`
 `;
 
 
-const FormPage = () => (
+const ContactForm = () => (
     <FormPageWrapper>
         <SideBar/>
         <FormWrapper/>
     </FormPageWrapper>
 )
 
-export default FormPage;
+export default ContactForm;

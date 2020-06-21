@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import logo from "../assets/logo.svg"
+import {Link} from "react-router-dom";
 
 const HeaderWrapper = styled.nav`
     display: flex;
@@ -45,7 +46,9 @@ export const Header = () => (
         <Logo/>
         <List>
             <Item>
-                Login
+                <Link to="/login">
+                    Login
+                </Link>
             </Item>
             <Item>
                 Sign up for free
