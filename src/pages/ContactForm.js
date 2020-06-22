@@ -4,7 +4,6 @@ import SideBar from "../components/SideBar";
 import FormWrapper from "../components/FormWrapper";
 import ButtonsPanel from "../components/ButtonsPanel";
 
-
 const FormPageWrapper = styled.div`
   display: flex;
   width: 80vw;
@@ -15,10 +14,7 @@ const FormPageWrapper = styled.div`
 const FormFrame = styled.div`
   display: flex;
   flex-direction:  column;
-  //margin: 10px;
-
 `;
-
 
 const ContactForm = () => (
     <FormPageWrapper>
