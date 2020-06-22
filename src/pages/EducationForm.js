@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import SideBar from "../components/SideBar";
 import FormWrapper from "../components/FormWrapper";
 import EducationFormWrapper from "../components/EducationFormWrapper";
+import ButtonsPanel from "../components/ButtonsPanel";
 
 
 const FormPageWrapper = styled.div`
@@ -12,12 +13,18 @@ const FormPageWrapper = styled.div`
   margin: 0 auto;
   background-color: ${({theme}) => theme.colors.white};
 `;
-
+const FormFrame = styled.div`
+  display: flex;
+  flex-direction:  column;
+`;
 
 const EducationForm = () => (
     <FormPageWrapper>
         <SideBar/>
+        <FormFrame>
         <EducationFormWrapper/>
+            <ButtonsPanel/>
+        </FormFrame>
     </FormPageWrapper>
 )
 
