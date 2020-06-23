@@ -1,4 +1,4 @@
-class Clause {
+class Summary {
 
     constructor() {
         this.id = 0;
@@ -6,4 +6,4 @@ class Clause {
     }
 }
 
-export default Clause;
+export default Summary;
