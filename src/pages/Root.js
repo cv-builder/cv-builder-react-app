@@ -11,7 +11,7 @@ import {BrowserRouter as Router} from "react-router-dom";
 import {Route} from "react-router";
 import LoginForm from "pages/LoginForm";
 import AboutForm from "pages/AboutForm";
-import HobbyForm from "pages/HobbyForm";
+import InterestForm from "pages/InterestForm";
 import SkillsForm from "pages/SkillsForm";
 import EducationForm from "pages/EducationForm";
 import ExperienceForm from "pages/ExperienceForm";
@@ -28,7 +28,7 @@ function Root() {
                 <Route path="/experience" component={ExperienceForm}/>
                 <Route path="/education" component={EducationForm}/>
                 <Route path="/skills" component={SkillsForm}/>
-                <Route path="/hobbies" component={HobbyForm}/>
+                <Route path="/interests" component={InterestForm}/>
                 <Route path="/about" component={AboutForm}/>
                 <Footer/>
             </ThemeProvider>

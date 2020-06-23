@@ -18,7 +18,7 @@ const FormFrame = styled.div`
   flex-direction:  column;
 `;
 
-const HobbyForm = () => (
+const InterestForm = () => (
     <FormPageWrapper>
         <SideBar/>
         <FormFrame>
@@ -28,4 +28,4 @@ const HobbyForm = () => (
     </FormPageWrapper>
 )
 
-export default HobbyForm;
+export default InterestForm;
