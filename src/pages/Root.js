@@ -15,21 +15,22 @@ import InterestForm from "pages/InterestForm";
 import SkillsForm from "pages/SkillsForm";
 import EducationForm from "pages/EducationForm";
 import ExperienceForm from "pages/ExperienceForm";
+import {routes} from "routes";
 
 function Root() {
     return (
         <Router>
             <ThemeProvider theme={lightTheme}>
                 <Header/>
-                <Route exact path="/" component={MainPage}/>
-                <Route path="/create" component={PersonalDataForm}/>
-                <Route path="/login" component={LoginForm}/>
-                <Route path="/personal-data" component={PersonalDataForm}/>
-                <Route path="/experience" component={ExperienceForm}/>
-                <Route path="/education" component={EducationForm}/>
-                <Route path="/skills" component={SkillsForm}/>
-                <Route path="/interests" component={InterestForm}/>
-                <Route path="/summary" component={SummaryForm}/>
+                <Route exact path={routes.mainPage} component={MainPage}/>
+                <Route path={routes.create} component={PersonalDataForm}/>
+                <Route path={routes.login} component={LoginForm}/>
+                <Route path={routes.personalData} component={PersonalDataForm}/>
+                <Route path={routes.experience} component={ExperienceForm}/>
+                <Route path={routes.education} component={EducationForm}/>
+                <Route path={routes.skill} component={SkillsForm}/>
+                <Route path={routes.interest} component={InterestForm}/>
+                <Route path={routes.summary} component={SummaryForm}/>
                 <Footer/>
             </ThemeProvider>
         </Router>
