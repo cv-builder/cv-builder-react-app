@@ -81,7 +81,7 @@ const StyledTextarea = styled.textarea`
 `;
 
 
-const AboutFormWrapper = () => (
+const SummaryFormWrapper = () => (
     <PageWrapper>
         <Wrapper>
             <FormItem>
@@ -98,4 +98,4 @@ const AboutFormWrapper = () => (
     </PageWrapper>
 )
 
-export default AboutFormWrapper;
+export default SummaryFormWrapper;

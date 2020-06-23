@@ -10,7 +10,7 @@ import ContactForm from "pages/ContactForm";
 import {BrowserRouter as Router} from "react-router-dom";
 import {Route} from "react-router";
 import LoginForm from "pages/LoginForm";
-import AboutForm from "pages/AboutForm";
+import SummaryForm from "pages/SummaryForm";
 import InterestForm from "pages/InterestForm";
 import SkillsForm from "pages/SkillsForm";
 import EducationForm from "pages/EducationForm";
@@ -29,7 +29,7 @@ function Root() {
                 <Route path="/education" component={EducationForm}/>
                 <Route path="/skills" component={SkillsForm}/>
                 <Route path="/interests" component={InterestForm}/>
-                <Route path="/about" component={AboutForm}/>
+                <Route path="/summary" component={SummaryForm}/>
                 <Footer/>
             </ThemeProvider>
         </Router>

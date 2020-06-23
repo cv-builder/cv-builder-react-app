@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import SideBar from "components/SideBar";
 import FormWrapper from "components/FormWrapper";
-import AboutFormWrapper from "components/AboutFormWrapper";
+import SummaryFormWrapper from "components/SummaryFormWrapper";
 import ButtonsPanel from "components/ButtonsPanel";
 
 
@@ -18,15 +18,15 @@ const FormFrame = styled.div`
   flex-direction:  column;
 `;
 
-const AboutForm = () => (
+const SummaryForm = () => (
     <FormPageWrapper>
 
         <SideBar/>
         <FormFrame>
-            <AboutFormWrapper/>
+            <SummaryFormWrapper/>
             <ButtonsPanel/>
         </FormFrame>
     </FormPageWrapper>
 )
 
-export default AboutForm;
+export default SummaryForm;
