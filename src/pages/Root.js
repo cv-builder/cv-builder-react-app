@@ -15,7 +15,6 @@ import HobbyForm from "pages/HobbyForm";
 import SkillsForm from "pages/SkillsForm";
 import EducationForm from "pages/EducationForm";
 import ExperienceForm from "pages/ExperienceForm";
-import SecuredRoute from "security/SecuredRoute";
 
 function Root() {
     return (
@@ -23,14 +22,14 @@ function Root() {
             <ThemeProvider theme={lightTheme}>
                 <Header/>
                 <Route exact path="/" component={MainPage}/>
+                <Route path="/create" component={ContactForm}/>
                 <Route path="/login" component={LoginForm}/>
-                <SecuredRoute path="/create" component={ContactForm}/>
-                <SecuredRoute path="/contact" component={ContactForm}/>
-                <SecuredRoute path="/experience" component={ExperienceForm}/>
-                <SecuredRoute path="/education" component={EducationForm}/>
-                <SecuredRoute path="/skills" component={SkillsForm}/>
-                <SecuredRoute path="/hobbies" component={HobbyForm}/>
-                <SecuredRoute path="/about" component={AboutForm}/>
+                <Route path="/contact" component={ContactForm}/>
+                <Route path="/experience" component={ExperienceForm}/>
+                <Route path="/education" component={EducationForm}/>
+                <Route path="/skills" component={SkillsForm}/>
+                <Route path="/hobbies" component={HobbyForm}/>
+                <Route path="/about" component={AboutForm}/>
                 <Footer/>
             </ThemeProvider>
         </Router>
