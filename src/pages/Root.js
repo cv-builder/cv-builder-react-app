@@ -6,7 +6,7 @@ import {Footer} from "components/Footer";
 import {lightTheme} from "theme/theme";
 import MainPage from "pages/MainPage";
 import {ThemeProvider} from "styled-components";
-import ContactForm from "pages/ContactForm";
+import PersonalDataForm from "pages/PersonalDataForm";
 import {BrowserRouter as Router} from "react-router-dom";
 import {Route} from "react-router";
 import LoginForm from "pages/LoginForm";
@@ -22,9 +22,9 @@ function Root() {
             <ThemeProvider theme={lightTheme}>
                 <Header/>
                 <Route exact path="/" component={MainPage}/>
-                <Route path="/create" component={ContactForm}/>
+                <Route path="/create" component={PersonalDataForm}/>
                 <Route path="/login" component={LoginForm}/>
-                <Route path="/contact" component={ContactForm}/>
+                <Route path="/personal-data" component={PersonalDataForm}/>
                 <Route path="/experience" component={ExperienceForm}/>
                 <Route path="/education" component={EducationForm}/>
                 <Route path="/skills" component={SkillsForm}/>

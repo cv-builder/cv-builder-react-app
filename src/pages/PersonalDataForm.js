@@ -16,7 +16,7 @@ const FormFrame = styled.div`
   flex-direction:  column;
 `;
 
-const ContactForm = () => (
+const PersonalDataForm = () => (
     <FormPageWrapper>
         <SideBar/>
         <FormFrame>
@@ -26,4 +26,4 @@ const ContactForm = () => (
     </FormPageWrapper>
 )
 
-export default ContactForm;
+export default PersonalDataForm;
