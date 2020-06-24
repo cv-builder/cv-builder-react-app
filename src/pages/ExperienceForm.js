@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import SideBar from "../components/SideBar";
-import FormWrapper from "../components/FormWrapper";
 import ExperienceFormWrapper from "../components/ExperienceFormWrapper";
 import ButtonsPanel from "../components/ButtonsPanel";
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import SideBar from "../components/SideBar";
-import FormWrapper from "../components/FormWrapper";
 import ButtonsPanel from "../components/ButtonsPanel";
+import ContactFormWrapper from "../components/ContactFormWrapper";
 
 const FormPageWrapper = styled.div`
   display: flex;
@@ -20,7 +20,7 @@ const ContactForm = () => (
     <FormPageWrapper>
         <SideBar/>
         <FormFrame>
-            <FormWrapper/>
+            <ContactFormWrapper/>
             <ButtonsPanel/>
         </FormFrame>
     </FormPageWrapper>

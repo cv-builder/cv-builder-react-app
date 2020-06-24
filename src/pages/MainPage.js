@@ -37,7 +37,6 @@ const Paragraph = styled.p`
 `
 
 const MainPage = () => {
-
     return (
         <PageWrapper>
             <PageImage/>
