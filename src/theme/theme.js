@@ -5,6 +5,5 @@ export const lightTheme = {
         light: '#D9E1E3',
         gray: '#829C9C',
         white: '#F7F9FA',
-
     },
 };

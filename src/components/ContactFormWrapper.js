@@ -59,7 +59,7 @@ const StyledInput = styled.input`
   }
 `;
 
-const FormWrapper = () => (
+const ContactFormWrapper = () => (
     <PageWrapper>
         <Wrapper>
             <FormItem>
@@ -134,4 +134,4 @@ const FormWrapper = () => (
     </PageWrapper>
 )
 
-export default FormWrapper;
+export default ContactFormWrapper;
