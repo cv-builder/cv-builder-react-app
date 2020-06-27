@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-<<<<<<< HEAD
 import ValidationLoginForm from "components/ValidationLoginForm.js";
-=======
->>>>>>> c670963bfe52e79e7a60b753801319d6ad19bf0e
+
 
 const TextTop = styled.h1`
    color: white;
@@ -32,10 +30,7 @@ const StaticLoginAppearance = () => (
     <div>
     <Content>
     <TextTop>Sign In</TextTop>
-<<<<<<< HEAD
     <ValidationLoginForm/>
-=======
->>>>>>> c670963bfe52e79e7a60b753801319d6ad19bf0e
     </Content>
     </div>   
 );
