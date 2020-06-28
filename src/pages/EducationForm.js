@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import EducationFormWrapper from "../components/organisms/EducationFormWrapper";
 import FormTemplate from "../templates/FormTemplate";
 
