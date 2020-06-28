@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../logo.svg';
 import 'App.css';
 import {lightTheme} from "theme/theme";
 import MainPage from "pages/MainPage";
@@ -14,9 +13,7 @@ import SkillsForm from "pages/SkillsForm";
 import EducationForm from "pages/EducationForm";
 import ExperienceForm from "pages/ExperienceForm";
 import {routes} from "routes";
-import {Footer} from "../components/molecules/Footer";
 import {Header} from "../components/molecules/Header";
-import Example from "./Example";
 
 function Root() {
     return (
