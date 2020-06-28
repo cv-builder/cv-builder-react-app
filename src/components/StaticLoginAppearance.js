@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ValidationLoginForm from "components/ValidationLoginForm.js";
+import img from "assets/Backgroundimg.png";
 
 
 const TextTop = styled.h1`
@@ -17,21 +18,34 @@ const Content = styled.div`
    background-color: black;
    width: 367px;
    height: 500px;
-   position: absolute;
-   justify-content: center;
+   max-width: 100%;
+   position: relative;
+   display: flex;
    align-items: center;
-   left: 37%;
-   right: 37%;
-   top: 10%;
-   bottom: 10%;
+   justify-content: center;
+   left: 33%;
+   top: 33%;
+   right: 33%;
+   bottom: 33%;
+   
+`;
+
+const PageImage = styled.div`
+   width: 100vw;
+   max-width: 100%;
+   height: 100vh;
+   background-image: url(${img});
+   background-size: cover;
 `;
 
 const StaticLoginAppearance = () => (
     <div>
+    <PageImage>
     <Content>
     <TextTop>Sign In</TextTop>
     <ValidationLoginForm/>
     </Content>
+    </PageImage>
     </div>   
 );
 export default StaticLoginAppearance;
