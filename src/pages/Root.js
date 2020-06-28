@@ -32,8 +32,6 @@ function Root() {
                 <Route path={routes.skill} component={SkillsForm}/>
                 <Route path={routes.interest} component={InterestForm}/>
                 <Route path={routes.summary} component={SummaryForm}/>
-                <Route path={"/example"} component={Example}/>
-                {/*<Footer/>*/}
             </ThemeProvider>
         </Router>
     );
