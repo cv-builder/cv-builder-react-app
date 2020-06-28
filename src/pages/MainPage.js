@@ -1,7 +1,7 @@
 import React from 'react';
 import resume from 'assets/resume.svg';
 import styled from "styled-components";
-import Button from "components/Button";
+import Button from "components/atoms/Button";
 import {Link} from "react-router-dom";
 
 const PageWrapper = styled.div`
@@ -37,7 +37,6 @@ const Paragraph = styled.p`
 `
 
 const MainPage = () => {
-
     return (
         <PageWrapper>
             <PageImage/>
@@ -46,15 +45,14 @@ const MainPage = () => {
                     Instantly create a CV
                     to get a new job!
                 </Title>
-                <Paragraph>
                     <ul>
                         <li>choose your template</li>
                         <li>build your cv step by step</li>
                         <li>print</li>
                         <li>get a new job</li>
                     </ul>
-                </Paragraph>
-                <Button><Link to="/create">Create your own CV! </Link></Button>
+                <Button>
+                    <Link to="/create">Create your own CV! </Link></Button>
             </PageDescription>
         </PageWrapper>
     )

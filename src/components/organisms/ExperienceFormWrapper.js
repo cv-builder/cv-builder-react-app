@@ -81,14 +81,6 @@ const StyledTextarea = styled.textarea`
 `;
 
 const ExperienceFormWrapper = () => (
-    //++Company name
-    //position
-    //location
-    //from
-    //to
-    //duties
-
-
     <PageWrapper>
         <Wrapper>
             <FormItem>

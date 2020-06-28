@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import StaticLoginAppearance from "../components/StaticLoginAppearance.js";
+import StaticLoginAppearance from "../components/organisms/StaticLoginAppearance.js";
 
 
 
