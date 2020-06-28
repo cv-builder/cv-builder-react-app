@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import Item from "components/Item";
-import Checkbox from "components/Checkbox";
 import {Link} from "react-router-dom";
+import Checkbox from "../atoms/Checkbox";
+import Item from "../atoms/Item";
 
 const SideBarWrapper = styled.div`
   display: flex;

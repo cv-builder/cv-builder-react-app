@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import FormWrapper from "components/FormWrapper";
-import ExperienceFormWrapper from "components/ExperienceFormWrapper";
 import SideBar from "../components/organisms/SideBar";
 import ButtonsPanel from "../components/molecules/ButtonsPanel";
+import ExperienceFormWrapper from "../components/organisms/ExperienceFormWrapper";
 
 
 const FormPageWrapper = styled.div`

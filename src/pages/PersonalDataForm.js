@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import FormWrapper from "components/FormWrapper";
 import SideBar from "../components/organisms/SideBar";
 import ButtonsPanel from "../components/molecules/ButtonsPanel";
+import FormWrapper from "../components/organisms/FormWrapper";
 
 const FormPageWrapper = styled.div`
   display: flex;

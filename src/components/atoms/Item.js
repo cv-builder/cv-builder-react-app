@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Checkbox from "components/Checkbox";
 import {Link} from "react-router-dom";
 
 const Item = styled(Link)`
