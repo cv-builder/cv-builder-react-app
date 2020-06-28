@@ -4,7 +4,6 @@ import SideBar from "../components/organisms/SideBar";
 import ButtonsPanel from "../components/molecules/ButtonsPanel";
 import ExperienceFormWrapper from "../components/organisms/ExperienceFormWrapper";
 
-
 const FormPageWrapper = styled.div`
   display: flex;
   width: 80vw;
