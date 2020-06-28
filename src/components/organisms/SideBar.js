@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Item from "./Item";
-import Checkbox from "./Checkbox";
+import Item from "components/Item";
+import Checkbox from "components/Checkbox";
 import {Link} from "react-router-dom";
 
 const SideBarWrapper = styled.div`

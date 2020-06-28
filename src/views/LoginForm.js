@@ -1,23 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
+import StaticLoginAppearance from "../components/StaticLoginAppearance.js";
 
 
-const TextTop = styled.h1`
-    color: red;
-`;
-const TextBottom = styled.p`
-    font-size: 13px;
-`;
 
-export default class LoginForm extends Component {
-    render(){
-       return(
+const LoginForm = () => {
+         return(
           <div>
-            <TextTop>Sign In!</TextTop>
-            <TextBottom>
-                Enter your Email and Password to loggin!
-            </TextBottom>
+            <StaticLoginAppearance/>
         <Formik
           initialValues={{ email: '', password: '' }}
           validate={values => {
@@ -51,5 +42,5 @@ export default class LoginForm extends Component {
         </Formik>
            </div>
         )
-    }
 }
+export default LoginForm;

@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import SideBar from "../components/SideBar";
-import AboutFormWrapper from "../components/AboutFormWrapper";
-import ButtonsPanel from "../components/ButtonsPanel";
+import FormWrapper from "components/FormWrapper";
+import SummaryFormWrapper from "components/SummaryFormWrapper";
+import SideBar from "../components/organisms/SideBar";
+import ButtonsPanel from "../components/molecules/ButtonsPanel";
 
 
 const FormPageWrapper = styled.div`
@@ -12,20 +13,19 @@ const FormPageWrapper = styled.div`
   margin: 0 auto;
   background-color: ${({theme}) => theme.colors.white};
 `;
-
 const FormFrame = styled.div`
   display: flex;
   flex-direction:  column;
 `;
 
-const AboutForm = () => (
+const SummaryForm = () => (
     <FormPageWrapper>
         <SideBar/>
         <FormFrame>
-            <AboutFormWrapper/>
+            <SummaryFormWrapper/>
             <ButtonsPanel/>
         </FormFrame>
     </FormPageWrapper>
 )
 
-export default AboutForm;
+export default SummaryForm;

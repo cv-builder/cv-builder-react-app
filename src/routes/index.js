@@ -2,10 +2,13 @@
 export const routes = {
 
     mainPage: '/',
-    formPage: '/create',
+    create: '/create',
 
+    login: '/login',
     course: '/cv/course',
     courseId: '/cv/course/:id',
+    clause: '/cv/clause',
+    clauseId: '/cv/clause/:id',
     education: '/cv/education',
     educationId: '/cv/education/:id',
     experience: '/cv/experience/',
@@ -18,6 +21,8 @@ export const routes = {
     projectId: '/cv/project/:id',
     skill: '/cv/skill',
     skillId: '/cv/skill/:id',
+    summary: '/cv/summary',
+    summaryId: '/cv/summary/:id',
     cv: '/cv',
     cvId: '/cv/:id',
     user: '/account',

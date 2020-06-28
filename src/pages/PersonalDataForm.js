@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import SideBar from "../components/SideBar";
-import ButtonsPanel from "../components/ButtonsPanel";
-import ContactFormWrapper from "../components/ContactFormWrapper";
+import FormWrapper from "components/FormWrapper";
+import SideBar from "../components/organisms/SideBar";
+import ButtonsPanel from "../components/molecules/ButtonsPanel";
 
 const FormPageWrapper = styled.div`
   display: flex;
@@ -16,14 +16,14 @@ const FormFrame = styled.div`
   flex-direction:  column;
 `;
 
-const ContactForm = () => (
+const PersonalDataForm = () => (
     <FormPageWrapper>
         <SideBar/>
         <FormFrame>
-            <ContactFormWrapper/>
+            <FormWrapper/>
             <ButtonsPanel/>
         </FormFrame>
     </FormPageWrapper>
 )
 
-export default ContactForm;
+export default PersonalDataForm;
