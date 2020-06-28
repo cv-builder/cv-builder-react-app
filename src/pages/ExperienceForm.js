@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import SideBar from "../components/organisms/SideBar";
 import ButtonsPanel from "../components/molecules/ButtonsPanel";
 import ExperienceFormWrapper from "../components/organisms/ExperienceFormWrapper";
+import FormTemplate from "../templates/FormTemplate";
 
 const FormPageWrapper = styled.div`
   display: flex;
@@ -17,13 +18,9 @@ const FormFrame = styled.div`
 `;
 
 const ExperienceForm = () => (
-    <FormPageWrapper>
-        <SideBar/>
-        <FormFrame>
-            <ExperienceFormWrapper/>
-            <ButtonsPanel/>
-        </FormFrame>
-    </FormPageWrapper>
+    <FormTemplate>
+        <ExperienceFormWrapper/>
+    </FormTemplate>
 )
 
 export default ExperienceForm;

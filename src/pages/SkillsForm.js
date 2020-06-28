@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import SideBar from "../components/organisms/SideBar";
 import ButtonsPanel from "../components/molecules/ButtonsPanel";
 import SkillsFormWrapper from "../components/organisms/SkillsFormWrapper";
+import FormTemplate from "../templates/FormTemplate";
 
 
 const FormPageWrapper = styled.div`
@@ -18,13 +19,9 @@ const FormFrame = styled.div`
 `;
 
 const SkillsForm = () => (
-    <FormPageWrapper>
-        <SideBar/>
-        <FormFrame>
-            <SkillsFormWrapper children="Skills"/>
-            <ButtonsPanel/>
-        </FormFrame>
-    </FormPageWrapper>
+    <FormTemplate>
+        <SkillsFormWrapper children="Skills"/>
+    </FormTemplate>
 )
 
 export default SkillsForm;

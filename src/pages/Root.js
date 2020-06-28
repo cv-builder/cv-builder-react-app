@@ -16,6 +16,7 @@ import ExperienceForm from "pages/ExperienceForm";
 import {routes} from "routes";
 import {Footer} from "../components/molecules/Footer";
 import {Header} from "../components/molecules/Header";
+import Example from "./Example";
 
 function Root() {
     return (
@@ -31,7 +32,8 @@ function Root() {
                 <Route path={routes.skill} component={SkillsForm}/>
                 <Route path={routes.interest} component={InterestForm}/>
                 <Route path={routes.summary} component={SummaryForm}/>
-                <Footer/>
+                <Route path={"/example"} component={Example}/>
+                {/*<Footer/>*/}
             </ThemeProvider>
         </Router>
     );

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import SideBar from "../components/organisms/SideBar";
 import ButtonsPanel from "../components/molecules/ButtonsPanel";
 import SummaryFormWrapper from "../components/organisms/SummaryFormWrapper";
-import FormTemplate from "../templates/FormTemplate";
+import MainTemplate from "../templates/MainTemplate";
 
 
 const FormPageWrapper = styled.div`
@@ -18,10 +18,13 @@ const FormFrame = styled.div`
   flex-direction:  column;
 `;
 
-const SummaryForm = () => (
-    <FormTemplate>
-        <SummaryFormWrapper/>
-    </FormTemplate>
+const Example = () => (
+    <MainTemplate>
+        <FormFrame>
+            <SummaryFormWrapper/>
+            <ButtonsPanel/>
+        </FormFrame>
+    </MainTemplate>
 )
 
-export default SummaryForm;
+export default Example;

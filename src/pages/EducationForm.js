@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import SideBar from "../components/organisms/SideBar";
 import ButtonsPanel from "../components/molecules/ButtonsPanel";
 import EducationFormWrapper from "../components/organisms/EducationFormWrapper";
+import FormTemplate from "../templates/FormTemplate";
 
 
 const FormPageWrapper = styled.div`
@@ -18,13 +19,9 @@ const FormFrame = styled.div`
 `;
 
 const EducationForm = () => (
-    <FormPageWrapper>
-        <SideBar/>
-        <FormFrame>
+    <FormTemplate>
         <EducationFormWrapper/>
-            <ButtonsPanel/>
-        </FormFrame>
-    </FormPageWrapper>
+    </FormTemplate>
 )
 
 export default EducationForm;

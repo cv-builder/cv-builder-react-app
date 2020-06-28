@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import SideBar from "../components/organisms/SideBar";
 import ButtonsPanel from "../components/molecules/ButtonsPanel";
 import FormWrapper from "../components/organisms/FormWrapper";
+import FormTemplate from "../templates/FormTemplate";
 
 const FormPageWrapper = styled.div`
   display: flex;
@@ -17,13 +18,9 @@ const FormFrame = styled.div`
 `;
 
 const PersonalDataForm = () => (
-    <FormPageWrapper>
-        <SideBar/>
-        <FormFrame>
-            <FormWrapper/>
-            <ButtonsPanel/>
-        </FormFrame>
-    </FormPageWrapper>
+    <FormTemplate>
+        <FormWrapper/>
+    </FormTemplate>
 )
 
 export default PersonalDataForm;
