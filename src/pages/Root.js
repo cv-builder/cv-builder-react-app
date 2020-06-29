@@ -3,17 +3,17 @@ import 'App.css';
 import {lightTheme} from "theme/theme";
 import MainPage from "pages/MainPage";
 import {ThemeProvider} from "styled-components";
-import PersonalDataForm from "pages/PersonalDataForm";
 import {BrowserRouter as Router} from "react-router-dom";
 import {Route} from "react-router";
-import LoginForm from "pages/LoginForm";
-import SummaryForm from "pages/SummaryForm";
-import InterestForm from "pages/InterestForm";
-import SkillsForm from "pages/SkillsForm";
-import EducationForm from "pages/EducationForm";
-import ExperienceForm from "pages/ExperienceForm";
 import {routes} from "routes";
 import {Header} from "../components/molecules/Header";
+import LoginForm from "../views/LoginForm";
+import PersonalDataPage from "./PersonalDataPage";
+import ExperiencePage from "./ExperiencePage";
+import EducationPage from "./EducationPage";
+import InterestPage from "./InterestPage";
+import SummaryPage from "./SummaryPage";
+import SkillsPage from "./SkillsPage";
 
 function Root() {
     return (
@@ -21,14 +21,14 @@ function Root() {
             <ThemeProvider theme={lightTheme}>
                 <Header/>
                 <Route exact path={routes.mainPage} component={MainPage}/>
-                <Route path={routes.create} component={PersonalDataForm}/>
+                <Route path={routes.create} component={PersonalDataPage}/>
                 <Route path={routes.login} component={LoginForm}/>
-                <Route path={routes.personalData} component={PersonalDataForm}/>
-                <Route path={routes.experience} component={ExperienceForm}/>
-                <Route path={routes.education} component={EducationForm}/>
-                <Route path={routes.skill} component={SkillsForm}/>
-                <Route path={routes.interest} component={InterestForm}/>
-                <Route path={routes.summary} component={SummaryForm}/>
+                <Route path={routes.personalData} component={PersonalDataPage}/>
+                <Route path={routes.experience} component={ExperiencePage}/>
+                <Route path={routes.education} component={EducationPage}/>
+                <Route path={routes.skill} component={SkillsPage}/>
+                <Route path={routes.interest} component={InterestPage}/>
+                <Route path={routes.summary} component={SummaryPage}/>
             </ThemeProvider>
         </Router>
     );

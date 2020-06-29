@@ -2,10 +2,10 @@ import React from 'react';
 import EducationFormWrapper from "../components/organisms/EducationFormWrapper";
 import FormTemplate from "../templates/FormTemplate";
 
-const EducationForm = () => (
+const EducationPage = () => (
     <FormTemplate>
         <EducationFormWrapper/>
     </FormTemplate>
 )
 
-export default EducationForm;
+export default EducationPage;

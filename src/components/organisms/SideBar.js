@@ -19,27 +19,27 @@ const SideBar = () => (
     <SideBarWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item to="/contact">CONTACT</Item>
+            <Item to="/cv/contact">CONTACT</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item to="/experience">EXPERIENCE</Item>
+            <Item to="/cv/experience">EXPERIENCE</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item to="/education">EDUCATION</Item>
+            <Item to="/cv/education">EDUCATION</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item to="/skills">SKILLS</Item>
+            <Item to="/cv/skill">SKILLS</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item to="/about">ABOUT</Item>
+            <Item to="/cv/about">ABOUT</Item>
         </ItemWrapper>
         <ItemWrapper>
             <Checkbox/>
-            <Item to="/hobbies">HOBBIES</Item>
+            <Item to="/cv/interest">HOBBIES</Item>
         </ItemWrapper>
 
 

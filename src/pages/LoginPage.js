@@ -11,7 +11,7 @@ const TextBottom = styled.p`
     font-size: 13px;
 `;
 
-export default class LoginForm extends Component {
+export default class LoginPage extends Component {
     render(){
        return(
           <div>
