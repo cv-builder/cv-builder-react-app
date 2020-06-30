@@ -20,9 +20,6 @@ const Content = styled.div`
    height: 500px;
    max-width: 100%;
    position: relative;
-   display: flex;
-   align-items: center;
-   justify-content: center;
    left: 33%;
    top: 33%;
    right: 33%;

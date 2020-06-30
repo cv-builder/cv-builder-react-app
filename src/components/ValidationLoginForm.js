@@ -1,6 +1,6 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage} from 'formik';
-
+import ButtonSubmitAppearance from "components/ButtonSubmitAppearance.js";
 
 const ValidationLoginForm = () => (
     <Formik
@@ -28,9 +28,7 @@ const ValidationLoginForm = () => (
           <ErrorMessage name="email" component="div" />
           <Field type="password" name="password" />
           <ErrorMessage name="password" component="div" />
-          <button type="submit" visible={isSubmitting}>
-            Submit
-          </button>
+          <ButtonSubmitAppearance/>
         </Form>
         )}
         </Formik>
