@@ -5,7 +5,7 @@ import ButtonSubmitAppearance from "components/ButtonSubmitAppearance.js";
 import TermsCheckBoxLogin from "components/TermsCheckBoxLogin.js";
 
 
-const Input = styled.input`
+const StyledField = styled(Field)`
     background-color: #D7CFCF;
     border: none;
     display: flex;
@@ -41,9 +41,9 @@ const ValidationLoginForm = () => (
         >
         {({ isSubmitting }) => (
         <Form>
-          <Input type="email" name="email" placeholder="Email"/>
+          <StyledField type="email" name="email" placeholder="Email"/>
           <ErrorMessage name="email" component="div" />
-          <Input type="password" name="password" placeholder="Password"/>
+          <StyledField type="password" name="password" placeholder="Password"/>
           <ErrorMessage name="password" component="div" />
           <TermsCheckBoxLogin/>
           <ButtonSubmitAppearance/>

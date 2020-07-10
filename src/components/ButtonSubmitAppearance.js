@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ValidationLoginForm from "components/ValidationLoginForm.js";
 
 const ButtonSubmitLoginForm = styled.button`
      display: flex;
