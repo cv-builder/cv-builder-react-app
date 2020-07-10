@@ -2,16 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ButtonSubmitLoginForm = styled.button`
-<<<<<<< HEAD
-     background-color: #25313D;
-     position: absolute;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: 250px;
-     border: none;
-     width: 140px;
-=======
      display: flex;
      justify-content: center;
      align-items: center;
@@ -21,7 +11,6 @@ const ButtonSubmitLoginForm = styled.button`
      border: none;
      width: 280px;
      margin-top: 200px;
->>>>>>> 0e95e5a... Add next step login form style, and one component
 `;
 
 const TextOnButton = styled.p`
